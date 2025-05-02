@@ -1,0 +1,71 @@
+/*contenedor principal*/
+.contenedor-ubicacion{
+    display: flex;
+    width: 100vw;
+}
+
+/*seccion de informacion*/
+.cont-1{
+    background-color: #ffff;
+    width: 30vw;
+    height: 100vh;
+}
+
+
+.cont-1 >p{
+    font-size: 35px;
+    margin: 10%;
+}
+
+.calle{
+    margin: 8%;
+    display: flex;
+}
+
+.calle p{
+    text-align: start;
+    width: 90%;
+    margin-left: 5%;
+}
+
+/*mapa*/
+.cont-2 iframe{
+    width: 70vw;
+    height: 100vh;
+
+}
+
+/*barra divisora*/
+.divisor{
+    height: 1px;
+    width: 80%;
+    background-color: rgb(196, 195, 195);
+    margin: 0 auto;
+}
+
+/**============================================
+estilos para dispositivos móviles
+==============================================*/
+@media screen and (max-width:767px){
+
+    .contenedor-ubicacion{
+        display: block;
+    }
+
+    .cont-1{
+        width: 100vw;
+        height: 450px;
+        max-height: 600px;
+    }
+
+    .cont-1 >p{
+        font-size: 25px;
+        padding-top: 15px;
+    }
+
+    .cont-2 iframe{
+        width: 100vw;
+        margin-top: 0px;
+    }
+
+}

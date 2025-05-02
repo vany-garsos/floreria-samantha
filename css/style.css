@@ -1,0 +1,493 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    font-family: "Thasadith", serif;
+}
+
+.playwrite-dk-loopet {
+    font-family: "Playwrite DK Loopet", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 60px;
+    color: #563c5c;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+
+
+}
+
+/**============================================
+estilos menu de navegacion
+==============================================*/
+
+.navbar {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 220px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.inputSearch form input {
+    background-color: transparent;
+    border-radius: 12px;
+    width: 95%;
+    height: 35px;
+    padding-left: 15px;
+    padding-right: 38px;
+    border: 1px solid gainsboro;
+}
+
+.inputSearch form .botonBuscar {
+    margin-left: -30px;
+    color: gainsboro;
+    background-color: transparent;
+    border: none;
+}
+
+input:focus {
+    outline: 1px solid rgb(114, 113, 113);
+}
+
+
+.navbar-nav li a {
+    text-decoration: none;
+    color: #563c5c;
+    font-size: 13px;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: transparent !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.offcanvas {
+    display: block !important;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li a:hover img {
+    color: #090909;
+    text-decoration: underline;
+}
+
+/**=================================================
+        SLIDER
+==================================================
+=*/
+
+.swiper-hero {
+    width: 90vw;
+    border-radius: 15px;
+    margin-top: 1%;
+}
+
+.swiper-slide img {
+    height: 450px;
+    width: 100vw;
+    object-fit: cover;
+}
+
+.swiper-hero .swiper-button-prev,
+.swiper-hero .swiper-button-next {
+    --swiper-navigation-size: 20px;
+    color: #595959;
+}
+
+.swiper-hero .swiper-pagination {
+    --swiper-pagination-color: white;
+}
+
+/**=================================================
+        CATEGORIA DE PRODUCTOS
+==================================================
+=*/
+.linea {
+    height: 1px;
+    width: 100vw;
+    background-color: rgba(128, 128, 128, 0.203);
+    margin-top: 100px;
+}
+
+
+.category-button {
+    color: rgb(90, 88, 89);
+    border: none;
+    background-color: transparent;
+    margin-top: 15px;
+}
+
+.category-button p {
+    font-size: 12px;
+    padding-top: 8px;
+    padding-bottom: 2px;
+    color: rgb(90, 88, 89);
+}
+
+.category-button:hover {
+    color: rgb(36, 35, 35);
+}
+
+
+.category-button:hover img,
+.category-button:hover p {
+    color: rgb(36, 35, 35);
+}
+
+.category-button:hover p {
+    border-bottom: 2px solid rgb(36, 35, 35);
+    ;
+    padding-bottom: 0;
+}
+
+/**=================================================
+       TERMINA CATEGORIA DE PRODUCTOS
+==================================================
+=*/
+
+
+/**=================================================
+        PRODUCTOS
+==================================================
+=*/
+
+.product {
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.product a {
+    text-decoration: none;
+}
+
+.product a:hover {
+    color: #000000;
+}
+
+.product img {
+    border-radius: 10px;
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+.product img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    margin-bottom: 3%;
+}
+
+.product h5 {
+    font-weight: bold;
+    margin: 15px 0px 10px 0px;
+}
+
+.product p {
+    font-weight: 600;
+    color: #827f7f;
+}
+
+/**=================================================
+        PRODUCTOS EN DESCRIPCION
+==================================================
+=*/
+.cont-image img {
+    width: 100%;
+    height: auto;
+    max-height: 600px;
+    object-fit: cover;
+}
+
+.boton {
+    background-color: #563c5c;
+    color: #ffffff;
+}
+
+.boton:hover {
+    color: rgb(249, 219, 250);
+}
+
+/**=================================================
+        TERMINA PRODUCTOS
+==================================================
+=*/
+
+
+
+/**=================================================
+                FOOTER
+==================================================
+=*/
+
+
+.footer-distributed {
+    background: #F7F7F7;
+    box-sizing: border-box;
+    widows: 100%;
+    text-align: left;
+    padding: 50px 50px 60px 50px;
+    margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer-distributed .footer-left {
+    width: 30%;
+    overflow: auto;
+}
+
+
+.footer-distributed h5 {
+    color: rgb(90, 88, 89);
+    letter-spacing: 2px;
+
+}
+
+
+.footer-distributed .footer-company-name {
+    color: #8f9296;
+    font-size: 12px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-center {
+    width: 25%;
+    padding-left: 60px;
+    margin-top: -20px;
+    padding-left: 5%;
+}
+
+.footer-distributed .footer-center a {
+    display: block;
+    text-decoration: none;
+}
+
+
+.footer-distributed .footer-right {
+    width: 30%;
+}
+
+.footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span,
+p,
+a {
+    display: block;
+    color: #563c5c;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/**=================================================
+estilos para tablets
+==================================================
+=*/
+
+
+@media screen and (min-width :990px) and (max-width: 1200px) {
+
+
+/**============================================
+        PRODUCTOS
+==============================================*/
+
+    .product {
+        height: 350px;
+        margin-bottom: 7%;
+    }
+ /**============================================
+    SLIDER
+==============================================*/
+
+    .swiper {
+        width: 90vw;
+        border-radius: 5px;
+        margin-top: 2%;
+    }
+
+    .swiper-slide img {
+        height: 300px;
+    }
+
+}
+
+/**=================================================
+estilos para dispositivos moviles
+==================================================
+=*/
+@media screen and (max-width:990px) {
+    .playwrite-dk-loopet {
+        font-size: 35px;
+    }
+
+/**============================================
+estilos menu de navegacion
+==============================================*/
+    .logo {
+        width: 180px;
+        margin-left: none;
+        margin-right: none;
+    }
+
+    .inputSearch form input {
+        width: 90%;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .inputSearch form input:focus {
+        border: #595959;
+    }
+
+    .inputSearch form .botonBuscar {
+        margin-left: -50px;
+    }
+
+    .navbar-nav {
+        margin-top: 10% !important;
+    }
+
+    .navbar-nav li {
+        display: inline-block !important;
+        margin-left: 32px;
+        padding-bottom: 25px;
+    }
+
+    .navbar li a {
+        font-size: 18px;
+    }
+
+    .navbar-nav li img {
+        margin-right: 10px;
+        width: 22px;
+    }
+
+    .offcanvas-header .btn-close {
+        margin-right: none !important;
+    }
+
+    .btn-close:focus {
+        box-shadow: none;
+    }
+
+    .flex-column {
+        flex-direction: row !important;
+    }
+
+    /**============================================
+    SLIDER
+==============================================*/
+
+
+    .swiper-slide img {
+        height: 220px;
+    }
+
+
+
+/**============================================
+    CATEGORIA DE PRODUCTOS
+==============================================*/
+
+    .buttons-content {
+        gap: 35px;
+        overflow-x: scroll;
+    }
+
+    .content button {
+        font-size: small;
+    }
+
+/**============================================
+        PRODUCTOS
+==============================================*/
+    .product {
+        height: 320px;
+
+    }
+
+    .cont-image img {
+        max-width: 400px;
+        ;
+    }
+
+    .cont-image~div {
+        text-align: center;
+        max-width: 400px;
+        margin: 0 auto;
+        margin-top: 2%;
+    }
+
+    .cont-image~div h5 {
+        font-size: medium;
+    }
+
+
+/**============================================
+        FOOTER
+==============================================*/
+    .footer-distributed {
+        padding: 18px 15px 60px 18px;
+    }
+
+    .footer-distributed .footer-left {
+        width: 45%;
+    }
+
+    .footer-distributed h5 {
+        font-size: medium;
+    }
+
+    .footer-distributed .footer-center {
+        padding-left: 15%;
+    }
+
+    .footer-distributed .footer-company-about span,
+    p {
+        font-size: 12px;
+    }
+
+    .footer-distributed .footer-right p {
+        display: none;
+    }
+
+
+}
+
+/**=================================================
+estilos para dispositivos moviles mas pequeños
+==================================================
+=*/
+@media screen and (max-width:500px) {
+
+/**============================================
+        PRODUCTOS
+==============================================*/
+    .product {
+        height: 230px;
+    }
+}
